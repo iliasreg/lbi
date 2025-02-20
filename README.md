@@ -1,4 +1,4 @@
-# lbi - A Go Weight Round Robin Load Balancer
+# lbi - A Load Balancer
 
 A simple yet powerful load balancer implemented in Go. This project demonstrates how to build a load balancer from scratch, featuring weighted round-robin load balancing, health checks, and reverse proxying.
 
