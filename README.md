@@ -1,4 +1,4 @@
-# lbi -- A Go Weight Round Robin Load Balancer
+# lbi - A Go Weight Round Robin Load Balancer
 
 A simple yet powerful load balancer implemented in Go. This project demonstrates how to build a load balancer from scratch, featuring weighted round-robin load balancing, health checks, and reverse proxying.
 
@@ -16,11 +16,13 @@ A simple yet powerful load balancer implemented in Go. This project demonstrates
    cd lbi
    ```
    
-Build and run the load balancer:
+2. **Build and run the load balancer:**
 
-```bash
-go run main.go
-```
+   ```bash
+   go run main.go
+   ```
+
+---
 
 ## Usage
 Start Backend Servers
@@ -37,12 +39,16 @@ Start some backend servers using Python’s built-in HTTP server:
   python3 -m http.server 8083
   ```
 
+---
+
 ## Start the Load Balancer
 Run the load balancer:
 
   ```bash
   go run main.go
   ```
+
+---
 
 ## Send Requests
 Send requests to the load balancer using curl or a browser:
