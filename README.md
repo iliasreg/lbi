@@ -30,23 +30,22 @@ Start some backend servers using Python’s built-in HTTP server:
 
   ```bash
   # Terminal 1
-  python3 -m http.server 8081
+  python3 -m http.server 6969
   
   # Terminal 2
-  python3 -m http.server 8082
+  python3 -m http.server 3030
   
   # Terminal 3
-  python3 -m http.server 8083
+  python3 -m http.server 4200
   ```
 
 ---
 
 ## Start the Load Balancer
-Run the load balancer:
 
-  ```bash
-  go run main.go
-  ```
+   ```bash
+   go run main.go
+   ```
 
 ---
 
